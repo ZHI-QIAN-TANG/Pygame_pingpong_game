@@ -141,3 +141,4 @@ while True:
     WIN.blit(winner_text, (WIDTH // 2 - winner_text.get_width() // 2, HEIGHT // 2 - winner_text.get_height() // 2))
     
     pygame.display.flip()
+    
