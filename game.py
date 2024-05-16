@@ -16,10 +16,15 @@ BLACK = (0, 0, 0)
 # 載入背景畫面:
 background = pygame.image.load("background.jpg")  # 替換成你的背景圖片路徑
 
-# 載入音效
+#載入音效
 wall_hit_sound = pygame.mixer.Sound("PongHit.mp3") #球碰到牆壁的音效
 paddle_hit_sound = pygame.mixer.Sound("PongHit.mp3") #球碰到板子的音效
 score_sound = pygame.mixer.Sound("cheers.mp3") #球進入得分區的音效
+
+#設置音效音量
+wall_hit_sound.set_volume(0.5)  # 設置音量為 50%
+paddle_hit_sound.set_volume(0.5)  # 設置音量為 50%
+score_sound.set_volume(0.5)  # 設置音量為 50%
 
 # 載入背景音樂
 pygame.mixer.music.load("background_music.mp3")
