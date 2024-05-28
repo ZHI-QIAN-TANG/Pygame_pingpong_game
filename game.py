@@ -28,7 +28,7 @@ score_sound.set_volume(0.5)  # 設置音量為 50%
 
 # 載入背景音樂
 pygame.mixer.music.load("background_music.mp3")
-pygame.mixer.music.set_volume(0.1)  # 設定背景音樂音量為50%
+pygame.mixer.music.set_volume(0.1)  # 設定背景音樂音量為10%
 pygame.mixer.music.play(-1)  # -1 表示無限循環播放
 
 # 設定球和板的初始位置和速度
